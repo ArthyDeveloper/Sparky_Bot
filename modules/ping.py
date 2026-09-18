@@ -6,7 +6,7 @@ class Ping(commands.Cog):
     self.bot = bot
 
   @commands.command(name="ping", aliases=["pingue", "pong", "pongue"])
-  async def pint(self, ctx):
+  async def ping(self, ctx):
     msg_time = ctx.message.created_at
     now = datetime.now(timezone.utc)
     ping = round((now - msg_time).total_seconds() * 1000) *-1

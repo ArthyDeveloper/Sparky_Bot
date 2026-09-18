@@ -12,11 +12,11 @@ class Help(commands.Cog):
     "> Alt: pong.\n"
     ";server | Status do servidor e uso de Hardware.\n"
     "> Alt: sv, usage, uso, cpu, ram, pc, mundo, tamanho, status, stats.\n"
-    ";radmin | Rede Radmin\n"
-    "> Alt: ip, rede.",
+    ";ip | Rede VPN e IP do servidor.\n"
+    "> Alt: vpn, rede, radmin.",
     # Pag 2
-    ";scheme [Num] | [Scheme / Num]"
-    "> Alt: schema, schemes, schemas, schematic, schematics"
+    ";scheme [Num] | [Scheme / Num].\n"
+    "> Alt: schema, schemes, schemas, schematic, schematics."
     ]
     self.HELP_NUM_PAGES = len(self.HELP_PAGES)
   
